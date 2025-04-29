@@ -170,4 +170,4 @@ Pillow
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the Creative Commons Zero v1.0 Universal License - see the LICENSE file for details.
