@@ -4,6 +4,12 @@ A sophisticated presentation control system that enables wireless control of Pow
 
 The system allows for remote control of presentations displayed on an external monitor or projector through a custom-built Bluetooth Low Energy (BLE) controller.
 
+![RPI-ESP32](rpiesp32.jpg)
+
+## Video Demonstration
+
+Youtube: [Display and Remote Control PPTs using Raspberry Pi and ESP32 (Demonstration + GitHub Code and Tutorial)](https://youtu.be/fkQSearpJ4E)
+
 ## Features
 
 - Wireless presentation control using ESP32 via BLE
