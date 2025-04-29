@@ -1,0 +1,19 @@
+# /etc/systemd/system/presentation.service
+[Unit]
+Description=Presentation Controller
+After=graphical.target
+Wants=graphical.target
+
+[Service]
+User=avikc
+WorkingDirectory=/home/avikc/ppt_controller
+ExecStart=/bin/bash -c "sleep 10 && /home/avikc/ppt_controller/start_display.sh"
+Restart=on-failure
+RestartSec=5s
+Environment=DISPLAY=:0
+Environment=XAUTHORITY=/home/avikc/.Xauthority
+StandardOutput=file:/var/log/presentation_service.log
+StandardError=file:/var/log/presentation_error.log
+
+[Install]
+WantedBy=multi-user.target
