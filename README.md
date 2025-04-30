@@ -1,4 +1,4 @@
-# RaspberryPI-ESP32 Remote PPT Display & Control System
+# RaspberryPi-ESP32 Remote PPT Display & Control System
 
 A sophisticated presentation control system that enables wireless control of PowerPoint and PDF presentations using a Raspberry Pi and ESP32 combination. 
 
